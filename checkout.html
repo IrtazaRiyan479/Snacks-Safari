@@ -317,42 +317,13 @@
                    <div class="col-lg-8">
                        <h3 class="pb-3">Billing details</h3>
                            <div class="col-lg-12">
-                               <input type="text" class="input-text " name="billing_name" placeholder="Complete Name">
-                               <input type="email" class="input-text " name="billing_email" placeholder="Email address">
-                               <select name="billing_country" class="nice-select Advice country_to_state">
-                                   <option>Country</option>
-                                   <option>Select Topic 1</option>
-                                   <option>Select Topic 2</option>
-                                   <option>Select Topic 3</option>
-                                   <option>Select Topic 4</option>
-                               </select>
+                               <input type="text" class="input-text " name="billing_name" placeholder="Complete Name *" required>
                                <div class="row">
-                               <div class="col-lg-6">
-                                   <select name="billing_country" class="nice-select Advice city">
-                                       <option>City</option>
-                                       <option>Select Topic 1</option>
-                                       <option>Select Topic 2</option>
-                                       <option>Select Topic 3</option>
-                                       <option>Select Topic 4</option>
-                                   </select>
-                               </div>
-                               <div class="col-lg-6">
-                                   <select name="billing_country" class="nice-select Advice state province">
-                                       <option>State / Province</option>
-                                       <option>Select Topic 1</option>
-                                       <option>Select Topic 2</option>
-                                       <option>Select Topic 3</option>
-                                       <option>Select Topic 4</option>
-                                   </select>
-                               </div>
-                               <div class="col-lg-6">
-                                   <input type="text" name="Postal_Code" placeholder="Postal Code">
-                               </div>
-                               <div class="col-lg-6">
-                                   <input type="tel" class="input-text " name="billing_phone"  placeholder="Phone">
+                               <div class="col-lg-12">
+                                   <input type="tel" class="input-text " name="billing_phone"  placeholder="Phone *" required>
                                </div>
                                </div>
-                               <input type="text" name="Address" placeholder="Address">
+                               <input type="text" name="Address" placeholder="Address *" required>
                            </div>
                            <div class="woocommerce-additional-fields">
                                <textarea name="order_comments" class="input-text " placeholder="Order Note"></textarea>
@@ -398,24 +369,6 @@
                            <div class="checkout-side">
                                <h3>Payment Method</h3>
                                <ul>
-                                   <li>
-                                       <input type="radio" id="Bank_Payment" name="Bank_Payment" value="Bank_Payment">
-                                       <label for="Bank_Payment">
-                                               Bank Payment
-                                       </label>
-                                   </li>
-                                   <li>
-                                       <input type="radio" id="Jazzcash" name="JazzCash" value="JazzCash">
-                                       <label for="Check_Payment">
-                                               JazzCash
-                                       </label>
-                                   </li>
-                                   <li>
-                                       <input type="radio" id="EasyPaisa" name="EasyPaisa" value="EasyPaisa">
-                                       <label for="EasyPaisa">
-                                          EasyPaisa
-                                       </label>
-                                   </li>
                                    <li>
                                        <input type="radio" id="Cash on Delivery" name="Bank_Payment" value="Check_Payment">
                                        <label for="Cash on Delivery">
