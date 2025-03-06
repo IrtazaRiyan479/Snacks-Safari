@@ -4296,3 +4296,8 @@ button.swal-button.swal-button--confirm {
     font-family: 'Epilogue';
     background-color: #fff;
 }
+
+.sale-info {
+    background-color: #035397;
+    padding: 8px 0;
+}
